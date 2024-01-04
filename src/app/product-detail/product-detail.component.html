@@ -1,0 +1,45 @@
+<app-header [unidadesEnCarrito]="unidadesEnCarrito" [total_productos] = "this.total_productos"></app-header>
+
+<div class="product-details">
+
+  <div class="product" *ngFor="let product of data" [routerLink]="['/product', product.id]">
+
+    <div class="product-detail-container">
+      <div class="product-image">
+          <h2>{{ product.name }}</h2>
+
+        <img [src]="product.imagen" alt="{{ data.name }}">
+        <h4>Detalles del Producto</h4>
+
+        <h2>{{ product.detail }}</h2>
+      </div>
+      <div class="product-form">
+        <form>
+          <div class="carrito">
+            <h4>Precio Final:</h4>
+            <h2>S/. {{ product.price }}</h2>
+            <button class="red-button" (click)="addToCart(product)">Agregar al carrito</button>
+          </div>
+          <div class="product-form-2">
+            <h4>Tipos de entrega</h4>
+            <p> 🚚 Entrega regular hasta 5 días útiles a Lima Metropolitana, y hasta 15 días útiles a provincias.
+            </p>
+            <p>✈️ Entrega express 24 horas solo para Lima Metropolitana.
+            </p>
+            
+          </div>
+
+          <div class="product-form-2">
+            <p>🏦 Tus canjes están respaldados por Interbank.
+
+            </p>
+            <p> 💳 Completa las millas de tu canje pagando con tu tarjeta
+            </p>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,25 @@
+
+<div class="carrito-detalle" *ngIf = "unidadesEnCarrito > 0">
+  <button class="btn-finalizar-compra"  [routerLink]="['/verCatalogo']">Seguir Comprando </button>
+  <h1>Tu carrito de compras:</h1>         
+
+    <div  class="info" *ngFor="let product of this.productosUnicos">
+      <img [src]="product.imagen" alt="{{ product.name }}">
+      <div class="details">
+        <h3>{{ product.name }}</h3>
+        <p>Cantidad: {{ product.total / product.price  }}</p>         
+        <p>Precio por Producto: <span class="price">S/. {{ product.price }}</span> </p>
+        <p>Total: <span class="price">S/. {{product.total }}.</span> </p>
+
+      </div>
+  </div>
+  <button class="btn-finalizar-compra">Finalizar Compra</button>
+
+</div>
+    <div *ngIf = "unidadesEnCarrito == 0" class="empty-cart-container">
+      <img class="empty-cart-image" src="assets/carrovacio.png" alt="Carro vacío">
+      <h3>Su carro está vacío, pero puede explorar nuestro catálogo</h3>
+      <div class="catalog-button">
+        <button [routerLink]="['/verCatalogo']">Ver Catálogo Completo </button>
+      </div>
+    </div>

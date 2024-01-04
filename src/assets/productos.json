@@ -1,0 +1,24 @@
+[
+    { "id": 1, "name": "Blanik", "description": "Deshidratador de alimentos bda020 blanik", "price": 15.75, "imagen": "assets/artifact1.jpg", "categoria": "Electrodomésticos" },
+    { "id": 2, "name": "Riccaddona", "description": "Pack Riccadonna: 01 Und Riccadonna Prosecco x 750ml", "price": 20.5, "imagen": "assets/artifact2.jpg", "categoria": "Bebidas" },
+    { "id": 3, "name": "Tous", "description": "Perfume tous frag tous kids girl edt 100 ml", "price": 20.5, "imagen": "assets/artifact3.jpg", "categoria": "Belleza" },
+    { "id": 4, "name": "Bestway", "description": "Flotador de plastico pegazo 41121 bestway", "price": 12.5, "imagen": "assets/artifact4.jpg", "categoria": "Deportes" },
+    { "id": 5, "name": "Cacharel", "description": "Perfume cacharel frag yes i am mujer edp 50 ml", "price": 35.20, "imagen": "assets/artifact5.jpg", "categoria": "Belleza" },
+    { "id": 6, "name": "Wahl", "description": "Máquina de cortar wahl easy cut acero inox negro", "price": 112.5, "imagen": "assets/artifact6.jpg", "categoria": "Electrodomésticos" },
+    { "id": 7, "name": "The Ordinary", "description": "The ordinary squalane cleanser 1.7 oz/ 50 ml", "price": 48.0, "imagen": "assets/artifact7.jpg", "categoria": "Belleza" },
+    { "id": 8, "name": "Barbie", "description": "Lentes de barbie para niña , plastico , buena calidad", "price": 10.0, "imagen": "assets/artifact8.jpg", "categoria": "Juguetes" },
+    { "id": 9, "name": "Samsung", "description": "Samsung Galaxy S21", "price": 799.99, "imagen": "assets/artifact9.jpg", "categoria": "Electrónicos" },
+    { "id": 10, "name": "Sony", "description": "Sony 65-inch 4K Ultra HD Smart LED TV", "price": 1200.00, "imagen": "assets/artifact10.jpg", "categoria": "Electrónicos" },
+    { "id": 11, "name": "Nike", "description": "Zapatillas Nike Air Max", "price": 129.99, "imagen": "assets/artifact11.jpg", "categoria": "Deportes" },
+    { "id": 12, "name": "Canon", "description": "Cámara Canon EOS Rebel T7", "price": 449.99, "imagen": "assets/artifact12.jpg", "categoria": "Electrónicos" },
+    { "id": 13, "name": "Fitbit", "description": "Fitbit Charge 4 Fitness and Activity Tracker", "price": 149.95, "imagen": "assets/artifact13.jpg", "categoria": "Fitness" },
+    { "id": 14, "name": "KitchenAid", "description": "KitchenAid Stand Mixer", "price": 329.99, "imagen": "assets/artifact14.jpg", "categoria": "Electrodomésticos" },
+    { "id": 15, "name": "LG", "description": "LG UltraGear 27-inch Gaming Monitor", "price": 349.99, "imagen": "assets/artifact15.jpg", "categoria": "Electrónicos" },
+    { "id": 16, "name": "Apple", "description": "Apple AirPods Pro", "price": 249.00, "imagen": "assets/artifact16.jpg", "categoria": "Electrónicos" },
+    { "id": 17, "name": "Dyson", "description": "Dyson V11 Animal Cordless Vacuum Cleaner", "price": 599.99, "imagen": "assets/artifact17.jpg", "categoria": "Electrodomésticos" },
+    { "id": 18, "name": "Adidas", "description": "Chaqueta Adidas Originals", "price": 79.99, "imagen": "assets/artifact18.jpg", "categoria": "Ropa y Accesorios" },
+    { "id": 19, "name": "LG", "description": "LG 55-inch 4K Smart OLED TV", "price": 1499.99, "imagen": "assets/artifact19.jpg", "categoria": "Electrónicos" },
+    { "id": 20, "name": "Bose", "description": "Bose QuietComfort 35 II Wireless Headphones", "price": 299.00, "imagen": "assets/artifact20.jpg", "categoria": "Electrónicos" }
+
+
+]  

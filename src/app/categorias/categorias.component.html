@@ -1,0 +1,20 @@
+<div class="categories">
+  <button (click)="filterByCategory(null)">Todos</button>
+  <button *ngFor="let category of categories" (click)="filterByCategory(category.categoria)">{{ category.categoria }}</button>
+</div>
+<button class="red-button" [routerLink]="['']">Regresar a Pagina Principal</button>
+
+<div class="products" *ngIf="products.length > 0">
+  <div *ngFor="let product of products" class="product-item" [routerLink]="['/product', product.id]"> 
+    <h2>{{ product.name }}</h2>
+    <p>Categoría: {{ product.categoria }}</p>
+    <p>Precio: {{ product.price | currency:'S/.':'symbol' }}</p>
+    <img [src]="product.imagen" alt="{{ product.name }}">
+    <div class="buttons">
+      <button class="red-button" >Ver Producto</button>
+    </div>
+  </div>
+</div>
+
+
+  

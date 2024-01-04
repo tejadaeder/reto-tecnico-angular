@@ -1,0 +1,10 @@
+[
+    { "id": 1, "categoria": "Electrodomésticos" },
+    { "id": 2, "categoria": "Bebidas" },
+    { "id": 3, "categoria": "Belleza" },
+    { "id": 4, "categoria": "Deportes" },
+    { "id": 5, "categoria": "Juguetes" },
+    { "id": 6, "categoria": "Electrónicos" },
+    { "id": 7, "categoria": "Fitness" },
+    { "id": 8, "categoria": "Ropa y Accesorios" }
+]

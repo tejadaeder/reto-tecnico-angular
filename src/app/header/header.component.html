@@ -1,0 +1,37 @@
+
+
+<div class="header-container">
+  <div class="logo">
+    <img src="assets/tienda.png" alt="Logo de Mi Tienda">
+
+  <div class="search">
+    <input type="text" placeholder="Encuentra lo mejor en productos">
+  </div> 
+
+  <div class="cart" >
+    <span class="cart-icon" [routerLink]="['/verCarrito']">🛒</span>
+    <span class="cart-counter">{{ unidadesEnCarrito }}</span>
+  </div>
+</div>
+
+</div>
+
+<div class="menu">
+    <ul>
+        <li class="dropdown">
+          <a  class="dropbtn">Productos <span class="arrow">&#9660;</span></a>
+          <div class="dropdown-content">
+            <a href="#">Belleza y cuidado Personal</a>
+            <a href="#">Electro Hogar</a> 
+            
+            <a href="#">Hogar</a>
+            <div class="divider"></div>
+            
+            <a [routerLink]="['/verCatalogo']">Ver todas las categorias</a>
+          </div>
+        </li>
+        <li><a href="#">Viajes</a></li>
+        <li><a href="#">Canje en tienda</a></li>
+      </ul>
+    </div>
+   
